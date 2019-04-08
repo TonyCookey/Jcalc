@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>JCalc .::. Real-Time Calculator</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  </head>
+  <body>
+<br>
+<br>
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-6">
+            <h1 class="text-muted">J Calc</h1>
+            <form >
+              <div class="form-group">
+                <label for="operand1">Operand 1</label>
+                <input class="form-control" type="number" name="operand1" id="operand1" value="">
+
+              </div>
+                <div class="form-group">
+                  <label for="operand2">Operand 2</label>
+                  <input class="form-control" type="number" name="operand2" id="operand2" value="">
+                </div>
+
+<div class="form-group">
+                <select name="selector" id="selector" class="form-control" onchange="calc()">
+                  <option value="" disabled selected>-- Select Operator --</option>
+                  <option value="add"> Add</option>
+                  <option value="min"> Subtract</option>
+                  <option value="mul"> Multiply</option>
+                  <option value="div"> Divide</option>
+                  <option value="mod"> Modulus</option>
+                </select>
+                </div>
+
+            </form>
+            <br><br>
+            <div class="row">
+              <h2 class="text-muted">Your Result:</h2>
+              <p id="out" style="margin:10px;"> </p>
+            </div>
+
+          </div>
+
+
+          <div class="col-lg-4 offset-lg-2">
+            <div class="row">
+              <h4 class="text-muted">Powered by ToneAds</h4>
+
+
+<iframe width="560" height="315"
+ src="https://www.youtube.com/embed/EJIDnsi7r8o"
+ frameborder="0"
+ allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br>
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/8aEcIrq027U?start=60" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <script src="js/main.js" charset="utf-8"></script>
+  </body>
+</html>
